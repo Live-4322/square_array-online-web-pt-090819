@@ -10,3 +10,4 @@ square_array(new_numbers)
 end
 
 [1, 2, 3].each { |n| puts "Current number is: #{n}" }
+
