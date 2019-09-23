@@ -1,17 +1,4 @@
 def square_array(array)
-numbers =[1,2,3]
-
-square_array(numbers)
-
-new_numbers = [9,10,16,25]
-
-square_array(new_numbers)
-
-end
-
-[1, 2, 3].each { |n| puts "Current number is: #{n}" }
-
-def square_array(array)
   arr = []
   array.each { |i| arr << i ** 2 }
   arr
